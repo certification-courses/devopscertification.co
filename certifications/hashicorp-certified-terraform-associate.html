@@ -1,0 +1,716 @@
+<!doctype html>
+<html ng-app="myModule">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Hashicorp Certified Terraform Associate Training and Certification</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="../css/main.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="../css/animate.min.css">
+        <!-- Font-awesome CSS-->
+        <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+        <!-- Owl Caousel CSS -->
+        <link rel="stylesheet" href="../vendor/OwlCarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../vendor/OwlCarousel/owl.theme.default.min.css">
+        <!-- Main Menu CSS -->
+        <link rel="stylesheet" href="../css/meanmenu.min.css">
+        <!-- Color CSS -->
+        <link rel="stylesheet" href="../css/color.css">
+        <!-- Elements CSS -->
+        <link rel="stylesheet" href="../css/elements.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../style.css">
+        <!-- Modernizr Js -->
+        <script src="../js/modernizr-3.5.0.min.js"></script>
+		<!-- Ads js -->
+		<script src="../js/angular.min.js"></script>
+		<script src="../js/script.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+		<style>
+		.carousel-inner > .item > images,
+		.carousel-inner > .item > a > images {
+		width: 50%;
+		margin: auto;}
+        ul.b {
+              list-style-type: square;
+              margin-left: 5%;
+            }
+		</style>
+    </head>
+
+    <body>
+        <div id="wrapper" class="wrapper">
+            <!-- Header Area Start Here -->
+            <header>
+                <div id="header-one" class="header-height-wrap header-area header-fixed header-layout1">                  
+                    <div class="header-top-bar">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 d-flex align-items-center">
+                                    <div class="header-contact">
+                                        <ul>
+                                            <li><span><i class="fas fa-map-marker-alt"></i></span>DevOpsCertification, India</li><li><span><i class="fas fa-envelope"></i></span>contact@devopscertification.co</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="header-social text-right">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/devopscertification/" target="_blank">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/devopscertify" target="_blank">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.stumbleupon.com/stumbler/devopscertified" target="_blank">
+                                                    <i class="fab fa-stumbleupon"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.reddit.com/user/devopscertification/" target="_blank">
+                                                    <i class="fab fa-reddit-alien"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.tumblr.com/blog/devopscertification" target="_blank">
+                                                    <i class="fab fa-tumblr"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-menu-wrap" id="sticker">
+                        <div class="container">
+                            <div class="row no-gutters d-flex align-items-center">
+                                <div class="col-lg-2 col-md-2">
+                                    <div class="logo-area">
+                                        <a href="../index.html" class="logo-dark">
+                                            <img src="../img/logo.png" alt="logo" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 possition-static">
+                                    <div class="template-main-menu">
+                                        <nav id="dropdown">
+                                            <ul>
+                                                <li class="hide-on-mobile-menu">
+                                                    <a href="../index.html">Home</a>
+                                                </li>
+                                                <li class="hide-on-desktop-menu">
+                                                    <a href="../index.html">Home</a>   
+                                                </li>
+                                                <li>
+                                                    <a class="active"  href="../certifications.html">Our Certification</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../courses.html">Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../regents.html">Regents</a>
+                                                </li>
+                                                <li>
+                                                    <a href="../contact.html">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div> 
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="header-action-items text-right">
+                                        <ul>
+                                            <li>
+                                                <form id="top-search-form" class="header-search">
+                                                    <input type="text" class="search-input" placeholder="Search...." required="">
+                                                    <button class="search-button">
+                                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                                    </button>
+                                                </form>
+                                            </li>
+                                            <li><a href="#" class="custom-size-lg btn-fill size-xs bg-accent border-color-accent radius-45 color-light hover-color-accent btn-icon icon-left"><i class="fas fa-phone"></i> +91 7004835930</a></li>
+                                        </ul>
+                                    </div>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Header Area End Here -->
+            <!-- Header Area Space Start Here -->
+            <div id="header-area-space"></div>
+            <!-- Header Area Space End Here -->
+            <!-- Inne Page Banner Area Start Here -->
+            <section class="inner-page-banner bg-overlay pseudo-bg-dark-primary70 bg-common" data-bg-image="../img/banner/inner-banner.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumbs-area">
+                                <h1 style="">Hashicorp Certified Terraform Associate </h1>
+                                <ul>
+                                    <li>
+                                        <a href="../index.html">Home</a>
+                                    </li>
+                                    <li>Hashicorp Certified Terraform Associate Training and Certification</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			<!-- Inne Page Banner Area End Here -->   
+
+            <!-- Single Case Study Area Start Here -->
+            <section class="section-space-less30" style="padding:20px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-8 col-12">
+                            <div class="case-studies-details margin-b-30r">
+                                <div class="row">
+                                    <div class="col-lg-10 col-12">
+                                        <div class="case-studies-img">
+                                            <img src="../img/certification/hashicorp-certified-terraform-associate.png" alt="case-study" class="img-thumbnail width-100">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+					<h2 class="page-header">Hashicorp Certified Terraform Associate Training and Certification</h2>
+						<p class="text-justify"><b>Its all about HashiCorp Certified Terraform Associate Exam:</b></p>
+						<p class="text-justify">The Terraform Associate certification is for operations, IT, or devops professionals who know the basic concepts and skills associated with open source HashiCorp Terraform. Qualified candidates may not have used Terraform in production but have performed the tasks listed in the objectives in at least a personal demo environment. This person understands what enterprise features exist and what can and cannot be done using the open source offering.</p>
+						<p class="text-justify"><b>Is there a terraform certification?</h4></b></p>
+						
+					
+						<p class="text-justify">The exams are currently available to HashiCorp employees and select partners.</p>
+						
+						<p class="text-justify"><strong>Prerequisites of HashiCorp Certified Terraform Associate</strong></p>
+                        <ul class="b">
+                            <li>Basic terminal skills</li>
+                            <li>Basic understanding of on premises and cloud architecture</li>
+                        </ul>
+						
+						
+						<p class="text-justify"><strong>HashiCorp Certified Terraform Associate Requirements</strong></p>
+                        <ul class="b">
+                            <li>Strong understanding on Terraform and how to write Infrastructure as Code</li>
+                            <li>Desire to take and pass the HashiCorp Certified: Terraform Associate certification</li>
+                        </ul>
+						
+						<p class="text-justify"><strong>HashiCorp Certified Terraform Associate version to be used in exam</strong>
+						</p>
+                        <ul class="b">
+                            <li>Terraform 0.12 and higher.</li>
+                        </ul>
+                        <p class="text-justify"><b>HashiCorp Certified Terraform Associate Exam Details</b></p>
+                        <ul class="b">
+                            <li>Type Multiple choice</li>
+                            <li>Duration 1 hour</li>
+                            <li>Language English</li>
+                        </ul>
+                        <p class="text-justify"><b>HashiCorp Certified Terraform Associate Exam Experience</b></p>
+                        <p class="text-justify">Certification exams are taken online with a live proctor. This means that all locations and time zones are accommodated. Online proctoring provides the same benefits of a physical test center while being more accessible to exam-takers. The live proctor verifies the exam-taker’s identity, walks them through rules and procedures, and watches them take the exam. Be sure to follow the instructions on your exam appointment confirmation email about how to prepare your computer and physical environment to take the exam.</p>
+                        <p class="text-justify"><b>HashiCorp Certified Terraform Associate exam Eligibility</b></p>
+                        <p class="text-justify">The Terraform Associate certification is for operations, IT, or DevOps professionals who know the basic concepts and skills associated with open-source HashiCorp Terraform.</p>
+                        <p class="text-justify"><b>Is terraform hard to learn?</b></p>
+                        <p class="text-justify">No. DevOpsSchool has multiple classroom and virutal training. You may enroll for it. You would find multiple video tutoriald free at DevOps School youtube channel.</p>
+                        <p class="text-justify"><b>How to register for HashiCorp Certified Terraform Associate?</b></p>
+                        <p class="text-justify">The exams are currently available to HashiCorp employees and select partners only.</p>
+                        <p class="text-justify">HashiCorp has partnered with Credly’s Acclaim platform to offer you a digital badge upon passing a certification exam. There is no fee for this service and acceptance is totally up to you. Digital badges can be used in email signatures or digital resumes, and on social media sites such as LinkedIn, Facebook, and Twitter. Badges link back to a real-time verification feature that describes your qualifications.</p>
+                        <p class="text-justify"><b>How do I learn terraform?</b></p>
+                        <p class="text-justify">DevOpsSchool has multiple classroom and virutal training. You may enroll for it. You would find multiple video tutoriald free at DevOps School youtube channel.</p>
+                        <p class="text-justify"><b>What is the cost of HashiCorp Certified Terraform Associate?</b></p>
+                        <p class="text-justify">Free.</p>
+                        <p class="text-justify"><b>What is the exam fee HashiCorp Certified Terraform Associate?</b></p>
+                        <p class="text-justify">Free. contact <b>contact@DevOpsSchool.com</b> for classroom training details.</p>
+                        <p class="text-justify"><b>What is the training fee HashiCorp Certified Terraform Associate?</b></p>
+                        <p class="text-justify">Free. Try https://learn.hashicorp.com/terraform or contact <b><i>contact@DevOpsSchool.com</i></b> classroom training.</p>
+                        <p class="text-justify"><b>How to enroll for HashiCorp Certified Terraform Associate exam?</b></p>
+                        <p class="text-justify">The exams are currently available to HashiCorp employees and select partners only. Register at https://www.youracclaim.com/ and look for the badges named with following.</p>
+                        <ul class="b">
+                            <li>Automating Infrastructure with Terraform</li>
+                            <li>HashiCorp Certified: Terraform Associate</li>
+                        </ul>
+                        <p class="text-justify">Certification exams are taken online with a live proctor. This means that all locations and time zones are accommodated. Online proctoring provides the same benefits of a physical test center while being more accessible to exam-takers. The live proctor verifies the exam-taker’s identity, walks them through rules and procedures, and watches them take the exam. Be sure to follow the instructions on your exam appointment confirmation email about how to prepare your computer and physical environment to take the exam.</p>
+                        <p class="text-justify"><b>Where to find HashiCorp Certified Terraform Associate Study Guide?</b></p>
+                        <p class="text-justify">You may access at DevOpsSchool.com.</p>
+                        <p class="text-justify"><b>HashiCorp Certified Terraform Associate Exam Objectives</b></p>
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>1</th>
+                                <th>Understand infrastructure as code (IaC) concepts</th>
+                            </tr>
+                            <tr>
+                                <td>1a</td>
+                                <td>Explain what IaC is</td>
+                            </tr>                            
+                            <tr>
+                                <td>1b</td>
+                                <td>Describe advantages of IaC patterns</td>
+                            </tr>
+                        </table>
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>2</th>
+                                <th>Understand Terraform’s purpose (vs other IaC)</th>
+                            </tr>
+                            <tr>
+                                <td>2a</td>
+                                <td>Explain multi-cloud and provider-agnostic benefits</td>
+                            </tr>                            
+                            <tr>
+                                <td>2b</td>
+                                <td>Explain the benefits of state</td>
+                            </tr>
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>3</th>
+                                <th>Understand Terraform basics</th>
+                            </tr>
+                            <tr>
+                                <td>3a</td>
+                                <td>Handle Terraform and provider installation and versioning</td>
+                            </tr>                            
+                            <tr>
+                                <td>3b</td>
+                                <td>Describe plugin based architecture</td>
+                            </tr>                            
+                            <tr>
+                                <td>3c</td>
+                                <td>Demonstrate using multiple providers</td>
+                            </tr>                            
+                            <tr>
+                                <td>3d</td>
+                                <td>Describe how Terraform finds and fetches providers</td>
+                            </tr>                            
+                            <tr>
+                                <td>3e</td>
+                                <td>Explain when to use and not use provisioners and when to use local-exec or remote-exec</td>
+                            </tr>                            
+
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>4</th>
+                                <th>Use the Terraform CLI (outside of core workflow)</th>
+                            </tr>
+                            <tr>
+                                <td>4a</td>
+                                <td>Understand the help command (terraform help)</td>
+                            </tr>                            
+                            <tr>
+                                <td>4b</td>
+                                <td>Given a scenario: choose when to use terraform fmt to format code</td>
+                            </tr>                            
+                            <tr>
+                                <td>4c</td>
+                                <td>Given a scenario: choose when to use terraform taint to taint Terraform resources</td>
+                            </tr>                            
+                            <tr>
+                                <td>4d</td>
+                                <td>Given a scenario: choose when to use terraform import to import existing infrastructure into your Terraform state</td>
+                            </tr>                            
+                            <tr>
+                                <td>4e</td>
+                                <td>Given a scenario: choose when to use terraform workspace to create workspaces</td>
+                            </tr>                            
+                            <tr>
+                                <td>4f  </td>
+                                <td>Given a scenario: choose when to use terraform state to view Terraform state</td>
+                            </tr>                            
+                            <tr>
+                                <td>4g  </td>
+                                <td>Given a scenario: choose when to enable verbose logging and what the outcome/value is</td>
+                            </tr>                            
+                           
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>5</th>
+                                <th>Interact with Terraform modules</th>
+                            </tr>
+                            <tr>
+                                <td>5a</td>
+                                <td>Contrast module source options</td>
+                            </tr>                            
+                            <tr>
+                                <td>5b</td>
+                                <td>Interact with module inputs and outputs</td>
+                            </tr>                            
+                            <tr>
+                                <td>5c</td>
+                                <td>Describe variable scope within modules/child modules</td>
+                            </tr>                            
+                            <tr>
+                                <td>5d</td>
+                                <td>Discover modules from the public Terraform Module Registry</td>
+                            </tr>                            
+                            <tr>
+                                <td>5e</td>
+                                <td>Defining module version</td>
+                            </tr>                            
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>6</th>
+                                <th>Navigate Terraform workflow</th>
+                            </tr>
+                            <tr>
+                                <td>6a</td>
+                                <td>Describe Terraform workflow ( Write -> Plan -> Create )</td>
+                            </tr>                            
+                            <tr>
+                                <td>6b</td>
+                                <td>Initialize a Terraform working directory (terraform init)</td>
+                            </tr>                            
+                            <tr>
+                                <td>6c</td>
+                                <td>Validate a Terraform configuration (terraform validate)</td>
+                            </tr>                            
+                            <tr>
+                                <td>6d</td>
+                                <td>Generate and review an execution plan for Terraform (terraform plan)</td>
+                            </tr>                            
+                            <tr>
+                                <td>6e</td>
+                                <td>Execute changes to infrastructure with Terraform (terraform apply)</td>
+                            </tr>                            
+                            <tr>
+                                <td>6f</td>
+                                <td>Destroy Terraform managed infrastructure (terraform destroy)</td>
+                            </tr>                            
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>7</th>
+                                <th>Implement and maintain state</th>
+                            </tr>
+                            <tr>
+                                <td>7a</td>
+                                <td>Describe default local backend</td>
+                            </tr>                            
+                            <tr>
+                                <td>7b</td>
+                                <td>Outline state locking</td>
+                            </tr>                            
+                            <tr>
+                                <td>7c</td>
+                                <td>Handle backend authentication methods</td>
+                            </tr>                            
+                            <tr>
+                                <td>7d</td>
+                                <td>Describe remote state storage mechanisms and supported standard backends</td>
+                            </tr>                            
+                            <tr>
+                                <td>7e</td>
+                                <td>Describe effect of Terraform refresh on state</td>
+                            </tr>                            
+                            <tr>
+                                <td>7f  </td>
+                                <td>Describe backend block in configuration and best practices for partial configurations</td>
+                            </tr>                            
+                            <tr>
+                                <td>7g  </td>
+                                <td>Understand secret management in state files</td>
+                            </tr>                            
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>8</th>
+                                <th>Read, generate, and modify configuration</th>
+                            </tr>
+                            <tr>
+                                <td>8a  </td>
+                                <td>Demonstrate use of variables and outputs</td>
+                            </tr>                            
+                            <tr>
+                                <td>8b</td>
+                                <td>Describe secure secret injection best practice</td>
+                            </tr>                            
+                            <tr>
+                                <td>8c</td>
+                                <td>Understand the use of collection and structural types</td>
+                            </tr>                            
+                            <tr>
+                                <td>8d</td>
+                                <td>Create and differentiate resource and data configuration</td>
+                            </tr>                            
+                            <tr>
+                                <td>8e</td>
+                                <td>Use resource addressing and resource parameters to connect resources together</td>
+                            </tr>                            
+                            <tr>
+                                <td>8f</td>
+                                <td>Use Terraform built-in functions to write configuration</td>
+                            </tr>                            
+                            <tr>
+                                <td>8g</td>
+                                <td>Configure resource using a dynamic block</td>
+                            </tr>                            
+                            <tr>
+                                <td>8h  </td>
+
+                                <td>Describe built-in dependency management (order of execution based)</td>
+                            </tr>                            
+                        </table>                        
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>9</th>
+                                <th>Understand Terraform Enterprise capabilities</th>
+                            </tr>
+                            <tr>
+                                <td>9a</td>
+                                <td>Describe the benefits of Sentinel, registry, and workspaces</td>
+                            </tr>                            
+                            <tr>
+                                <td>9b</td>
+                                <td>Differentiate OSS and TFE workspaces</td>
+                            </tr>                            
+                            <tr>
+                                <td>9c</td>
+                                <td>Summarize features of Terraform Cloud</td>
+                            </tr>
+                        </table>                        
+                        <p class="text-justify"><b>Reference</b></p>
+                        <p class="text-justify">https://learn.hashicorp.com/terraform/certification/terraform-associate</p>
+                        <p class="text-justify">https://www.hashicorp.com/certification/</p>
+					<!-- Button of Online, Classroom and Register Now -->
+                            <table border="0" width="100%">
+								<tbody>
+								<tr>
+								<th scope="col" style="text-align:center">
+								<a title="online training" href="" target="_blank">
+									<img src="../img/online.jpg" alt="" width="100" height="130" /></a>
+								<a title="class room session" href="" target="_blank">
+									<img src="../img/classroom.jpg" alt="" width="100" height="130" /></a>
+								<a title="online training" href="http://www.scmgalaxy.com/events/index.html" target="_blank">
+									<img src="../img/register-now.jpg" width="100" height="130" /></a></th>
+								</tr>
+								</tbody>
+							</table>    
+
+						</div>
+                        </div>
+						
+                        <div class="sidebar-widget-area sidebar-break-md col-xl-3 col-lg-4 col-12">
+                            <div class="widget widget-classes">
+                                <ul>
+                                    <li>
+                                        <a href="../courses/devops-courses-foundation-level.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Course - Foundation Level</a>
+                                    </li>
+                                    <li>
+                                        <a href="../courses/devops-developer-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Developer Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="../courses/devops-professional-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Professional Courses</a>
+                                    </li>
+                                    <li>
+                                        <a href="../courses/devops-courses-professional-level.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Courses - Professional Level</a>
+                                    </li>
+                                    <li>
+                                        <a href="../courses/devops-engineer-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Engineer Courses & Certification</a>
+                                    </li>
+                                    <li>
+                                        <a href="../courses/devops-architect-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Architect Courses & Certification</a>
+                                    </li>
+									<li>
+                                        <a href="../courses/devops-administrator-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Administrator Courses & Certification</a>
+                                    </li>
+									<li>
+                                        <a href="../courses/devops-quality-analyst-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Quality Analyst Courses & Certification</a>
+                                    </li>
+									<li>
+                                        <a href="../courses/devops-manager-courses-and-certification.html">
+                                            <i class="fas fa-angle-right"></i>
+                                            DevOps Manager Course and Certification</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="widget widget-action-layout1">
+                                <h3 class="title title-medium size-sm color-dark-accent">What we can do for you?</h3>
+                                <p>We imply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard
+                                    dummy.</p>
+                                <a href="contact.html" class="btn-fill bg-accent border-color-accent size-xs radius-4 hover-color-accent">Contact Us</a>
+                            </div>
+                                                       
+
+                        </div>                        
+						
+                    </div>
+                </div>
+            </section>
+            <!-- Single Case Study Area End Here -->
+            <!-- Footer Area Start Here -->
+            <footer>
+                <div class="footer-area-top bg-dark-accent100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-box">
+                                    <div class="footer-logo">
+                                        <a href="../index.html">
+                                            <img src="../img/footer-logo.png" alt="logo" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <div class="footer-about">
+                                        <p align="justify">The DevOpsCertification.co is bringing certified DevOps certification training and courses to the IT market. Working with thought leaders from the DevOps community.</p>
+                                    </div>
+                                    <div class="footer-social">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-linkedin-in"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-pinterest-p"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fab fa-youtube"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-box">
+                                    <h3 class="title-medium size-md color-light-accent title-bar-md pseudo-bg-accent100">Latest News</h3>
+                                    <div class="latest-news">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Small Business Is Making more money.</a>
+                                                <span>April 11, 2018</span>
+                                            </li>
+                                            <li>
+                                                <a href="#">Business for long time happend.</a>
+                                                <span>April 13, 2018</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-box">
+                                    <h3 class="title-medium size-md color-light-accent title-bar-md pseudo-bg-accent100">Useful Links</h3>
+                                    <div class="useful-link">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/groups/DevOpsIndia" target="_blank">Facebook Group</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/groups/6727934" target="_blank">Linked Group</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.devopsschool.com/tutorial" target="_blank">Web Tutorials</a>
+                                            </li>
+                                            <li>
+                                                <a href="../partners.html">Partners</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.scmgalaxy.com/courses" target="_blank">DevOps Courses</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="footer-box">
+                                    <h3 class="title-medium size-md color-light-accent title-bar-md pseudo-bg-accent100">Location</h3>
+                                    <div class="footer-address">
+                                        <h4>India</h4>
+                                        <ul class="margin-b-20">
+                                            <li>
+                                                <i class="fas fa-map-marker-alt"></i>10 street, 59 building</li>
+                                            
+                                            <li>
+                                                <i class="far fa-envelope"></i>contact@devopscertification.co</li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right bg-dark-box100 text-center">
+                    <p>© 2018 DevOpsCertification.co. All Rights Reserved</p>
+                </div>
+            </footer>
+            <!-- Footer Area End Here -->
+        </div>
+        <!-- jquery-->
+        <script src="../js/jquery-2.2.4.min.js"></script>
+        <!-- Plugins js -->
+        <script src="../js/plugins.js"></script>
+        <!-- Popper js -->
+        <script src="../js/popper.js"></script>
+        <!-- Bootstrap js -->
+        <script src="../js/bootstrap.min.js"></script>
+        <!-- Owl Cauosel JS -->
+        <script src="../vendor/OwlCarousel/owl.carousel.min.js"></script>
+        <!-- Meanmenu Js -->
+        <script src="../js/jquery.meanmenu.min.js"></script>
+        <!-- Srollup js -->
+        <script src="../js/jquery.scrollUp.min.js"></script>
+        <!-- Fontawesome js -->
+        <script src="../js/fontawesome-all.min.js"></script>
+        <!-- Chart Js -->
+        <script src="../js/chart.min.js"></script>         
+        <!-- Custom Js -->
+        <script src="../js/main.js"></script> 
+
+    </body>
+</html>

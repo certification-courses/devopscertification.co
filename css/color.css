@@ -1,0 +1,1401 @@
+html,
+body {
+  color: #444444;
+  background-color: #ffffff;
+}
+.bg-wrap-light {
+  color: #444444;
+  background-color: #ffffff;
+}
+.bg-wrap-light h1,
+.bg-wrap-light h2,
+.bg-wrap-light h3,
+.bg-wrap-light h4 {
+  color: #111111;
+}
+.bg-wrap-light a {
+  color: red;
+}
+.bg-wrap-light:after,
+.bg-wrap-light:before {
+  background-color: #ffffff;
+}
+.bg-wrap-dark {
+  color: #dedede;
+  background-color: #111111;
+}
+.bg-wrap-dark h1,
+.bg-wrap-dark h2,
+.bg-wrap-dark h3,
+.bg-wrap-dark h4 {
+  color: #ffffff;
+}
+.bg-wrap-dark a {
+  color: #b0b0b0;
+}
+.bg-wrap-dark:after,
+.bg-wrap-dark:before {
+  background-color: #111111;
+}
+.color-primary {
+  color: #175eba;
+}
+.color-primary h1,
+.color-primary h2,
+.color-primary h3,
+.color-primary h4 {
+  color: #175eba;
+}
+.color-primary a {
+  color: #175eba;
+}
+.color-accent {
+  color: #fe9000;
+}
+.color-accent h1,
+.color-accent h2,
+.color-accent h3,
+.color-accent h4 {
+  color: #fe9000;
+}
+.color-accent a {
+  color: #fe9000;
+}
+.color-dark-primary {
+  color: #444444;
+}
+.color-dark-primary h1,
+.color-dark-primary h2,
+.color-dark-primary h3,
+.color-dark-primary h4 {
+  color: #444444;
+}
+.color-dark-primary a {
+  color: #444444;
+}
+.color-dark-accent {
+  color: #111111;
+}
+.color-dark-accent h1,
+.color-dark-accent h2,
+.color-dark-accent h3,
+.color-dark-accent h4 {
+  color: #111111;
+}
+.color-dark-accent a {
+  color: #111111;
+}
+.color-dark-box {
+  color: red;
+}
+.color-dark-box h1,
+.color-dark-box h2,
+.color-dark-box h3,
+.color-dark-box h4 {
+  color: red;
+}
+.color-dark-box a {
+  color: red;
+}
+.color-light-primary {
+  color: #dedede;
+}
+.color-light-primary h1,
+.color-light-primary h2,
+.color-light-primary h3,
+.color-light-primary h4 {
+  color: #dedede;
+}
+.color-light-primary a {
+  color: #dedede;
+}
+.color-light-accent {
+  color: #ffffff;
+}
+.color-light-accent h1,
+.color-light-accent h2,
+.color-light-accent h3,
+.color-light-accent h4 {
+  color: #ffffff;
+}
+.color-light-accent a {
+  color: #ffffff;
+}
+.color-light-box {
+  color: #b0b0b0;
+}
+.color-light-box h1,
+.color-light-box h2,
+.color-light-box h3,
+.color-light-box h4 {
+  color: #b0b0b0;
+}
+.color-light-box a {
+  color: #b0b0b0;
+}
+.bg-primary100 {
+  background-color: #175eba;
+}
+.bg-primary90 {
+  background-color: rgba(23, 94, 186, 0.9);
+}
+.bg-primary80 {
+  background-color: rgba(23, 94, 186, 0.8);
+}
+.bg-primary70 {
+  background-color: rgba(23, 94, 186, 0.7);
+}
+.bg-primary60 {
+  background-color: rgba(23, 94, 186, 0.6);
+}
+.bg-primary50 {
+  background-color: rgba(23, 94, 186, 0.5);
+}
+.bg-primary40 {
+  background-color: rgba(23, 94, 186, 0.4);
+}
+.bg-primary30 {
+  background-color: rgba(23, 94, 186, 0.3);
+}
+.bg-primary20 {
+  background-color: rgba(23, 94, 186, 0.2);
+}
+.bg-primary10 {
+  background-color: rgba(23, 94, 186, 0.1);
+}
+.bg-accent100 {
+  background-color: #fe9000;
+}
+.bg-accent90 {
+  background-color: rgba(254, 144, 0, 0.9);
+}
+.bg-accent80 {
+  background-color: rgba(254, 144, 0, 0.8);
+}
+.bg-accent70 {
+  background-color: rgba(254, 144, 0, 0.7);
+}
+.bg-accent60 {
+  background-color: rgba(254, 144, 0, 0.6);
+}
+.bg-accent50 {
+  background-color: rgba(254, 144, 0, 0.5);
+}
+.bg-accent40 {
+  background-color: rgba(254, 144, 0, 0.4);
+}
+.bg-accent30 {
+  background-color: rgba(254, 144, 0, 0.3);
+}
+.bg-accent20 {
+  background-color: rgba(254, 144, 0, 0.2);
+}
+.bg-accent10 {
+  background-color: rgba(254, 144, 0, 0.1);
+}
+.bg-light-primary100 {
+  background-color: #ffffff;
+}
+.bg-light-primary90 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.bg-light-primary80 {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.bg-light-primary70 {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.bg-light-primary60 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.bg-light-primary50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-light-primary40 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.bg-light-primary30 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.bg-light-primary20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.bg-light-primary10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.bg-light-accent100 {
+  background-color: #f7f7f7;
+}
+.bg-light-accent90 {
+  background-color: rgba(247, 247, 247, 0.9);
+}
+.bg-light-accent80 {
+  background-color: rgba(247, 247, 247, 0.8);
+}
+.bg-light-accent70 {
+  background-color: rgba(247, 247, 247, 0.7);
+}
+.bg-light-accent60 {
+  background-color: rgba(247, 247, 247, 0.6);
+}
+.bg-light-accent50 {
+  background-color: rgba(247, 247, 247, 0.5);
+}
+.bg-light-accent40 {
+  background-color: rgba(247, 247, 247, 0.4);
+}
+.bg-light-accent30 {
+  background-color: rgba(247, 247, 247, 0.3);
+}
+.bg-light-accent20 {
+  background-color: rgba(247, 247, 247, 0.2);
+}
+.bg-light-accent10 {
+  background-color: rgba(247, 247, 247, 0.1);
+}
+.bg-light-box100 {
+  background-color: #ff0000;
+}
+.bg-light-box90 {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+.bg-light-box80 {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.bg-light-box70 {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.bg-light-box60 {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.bg-light-box50 {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.bg-light-box40 {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.bg-light-box30 {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.bg-light-box20 {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.bg-light-box10 {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.bg-dark-primary100 {
+  background-color: #111111;
+}
+.bg-dark-primary90 {
+  background-color: rgba(17, 17, 17, 0.9);
+}
+.bg-dark-primary80 {
+  background-color: rgba(17, 17, 17, 0.8);
+}
+.bg-dark-primary70 {
+  background-color: rgba(17, 17, 17, 0.7);
+}
+.bg-dark-primary60 {
+  background-color: rgba(17, 17, 17, 0.6);
+}
+.bg-dark-primary50 {
+  background-color: rgba(17, 17, 17, 0.5);
+}
+.bg-dark-primary40 {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+.bg-dark-primary30 {
+  background-color: rgba(17, 17, 17, 0.3);
+}
+.bg-dark-primary20 {
+  background-color: rgba(17, 17, 17, 0.2);
+}
+.bg-dark-primary10 {
+  background-color: rgba(17, 17, 17, 0.1);
+}
+.bg-dark-accent100 {
+  background-color: #1b1d1f;
+}
+.bg-dark-accent90 {
+  background-color: rgba(27, 29, 31, 0.9);
+}
+.bg-dark-accent80 {
+  background-color: rgba(27, 29, 31, 0.8);
+}
+.bg-dark-accent70 {
+  background-color: rgba(27, 29, 31, 0.7);
+}
+.bg-dark-accent60 {
+  background-color: rgba(27, 29, 31, 0.6);
+}
+.bg-dark-accent50 {
+  background-color: rgba(27, 29, 31, 0.5);
+}
+.bg-dark-accent40 {
+  background-color: rgba(27, 29, 31, 0.4);
+}
+.bg-dark-accent30 {
+  background-color: rgba(27, 29, 31, 0.3);
+}
+.bg-dark-accent20 {
+  background-color: rgba(27, 29, 31, 0.2);
+}
+.bg-dark-accent10 {
+  background-color: rgba(27, 29, 31, 0.1);
+}
+.bg-dark-box100 {
+  background-color: #111213;
+}
+.bg-dark-box90 {
+  background-color: rgba(17, 18, 19, 0.9);
+}
+.bg-dark-box80 {
+  background-color: rgba(17, 18, 19, 0.8);
+}
+.bg-dark-box70 {
+  background-color: rgba(17, 18, 19, 0.7);
+}
+.bg-dark-box60 {
+  background-color: rgba(17, 18, 19, 0.6);
+}
+.bg-dark-box50 {
+  background-color: rgba(17, 18, 19, 0.5);
+}
+.bg-dark-box40 {
+  background-color: rgba(17, 18, 19, 0.4);
+}
+.bg-dark-box30 {
+  background-color: rgba(17, 18, 19, 0.3);
+}
+.bg-dark-box20 {
+  background-color: rgba(17, 18, 19, 0.2);
+}
+.bg-dark-box10 {
+  background-color: rgba(17, 18, 19, 0.1);
+}
+.pseudo-color-primary100:after,
+.pseudo-color-primary100:before {
+  color: #175eba;
+}
+.pseudo-color-primary90:after,
+.pseudo-color-primary90:before {
+  color: rgba(23, 94, 186, 0.9);
+}
+.pseudo-color-primary80:after,
+.pseudo-color-primary80:before {
+  color: rgba(23, 94, 186, 0.8);
+}
+.pseudo-color-primary70:after,
+.pseudo-color-primary70:before {
+  color: rgba(23, 94, 186, 0.7);
+}
+.pseudo-color-primary60:after,
+.pseudo-color-primary60:before {
+  color: rgba(23, 94, 186, 0.6);
+}
+.pseudo-color-primary50:after,
+.pseudo-color-primary50:before {
+  color: rgba(23, 94, 186, 0.5);
+}
+.pseudo-color-primary40:after,
+.pseudo-color-primary40:before {
+  color: rgba(23, 94, 186, 0.4);
+}
+.pseudo-color-primary30:after,
+.pseudo-color-primary30:before {
+  color: rgba(23, 94, 186, 0.3);
+}
+.pseudo-color-primary20:after,
+.pseudo-color-primary20:before {
+  color: rgba(23, 94, 186, 0.2);
+}
+.pseudo-color-primary10:after,
+.pseudo-color-primary10:before {
+  color: rgba(23, 94, 186, 0.1);
+}
+.pseudo-color-accent100:after,
+.pseudo-color-accent100:before {
+  color: #fe9000;
+}
+.pseudo-color-accent90:after,
+.pseudo-color-accent90:before {
+  color: rgba(254, 144, 0, 0.9);
+}
+.pseudo-color-accent80:after,
+.pseudo-color-accent80:before {
+  color: rgba(254, 144, 0, 0.8);
+}
+.pseudo-color-accent70:after,
+.pseudo-color-accent70:before {
+  color: rgba(254, 144, 0, 0.7);
+}
+.pseudo-color-accent60:after,
+.pseudo-color-accent60:before {
+  color: rgba(254, 144, 0, 0.6);
+}
+.pseudo-color-accent50:after,
+.pseudo-color-accent50:before {
+  color: rgba(254, 144, 0, 0.5);
+}
+.pseudo-color-accent40:after,
+.pseudo-color-accent40:before {
+  color: rgba(254, 144, 0, 0.4);
+}
+.pseudo-color-accent30:after,
+.pseudo-color-accent30:before {
+  color: rgba(254, 144, 0, 0.3);
+}
+.pseudo-color-accent20:after,
+.pseudo-color-accent20:before {
+  color: rgba(254, 144, 0, 0.2);
+}
+.pseudo-color-accent10:after,
+.pseudo-color-accent10:before {
+  color: rgba(254, 144, 0, 0.1);
+}
+.pseudo-color-light-primary100:after,
+.pseudo-color-light-primary100:before {
+  color: #dedede;
+}
+.pseudo-color-light-primary90:after,
+.pseudo-color-light-primary90:before {
+  color: rgba(222, 222, 222, 0.9);
+}
+.pseudo-color-light-primary80:after,
+.pseudo-color-light-primary80:before {
+  color: rgba(222, 222, 222, 0.8);
+}
+.pseudo-color-light-primary70:after,
+.pseudo-color-light-primary70:before {
+  color: rgba(222, 222, 222, 0.7);
+}
+.pseudo-color-light-primary60:after,
+.pseudo-color-light-primary60:before {
+  color: rgba(222, 222, 222, 0.6);
+}
+.pseudo-color-light-primary50:after,
+.pseudo-color-light-primary50:before {
+  color: rgba(222, 222, 222, 0.5);
+}
+.pseudo-color-light-primary40:after,
+.pseudo-color-light-primary40:before {
+  color: rgba(222, 222, 222, 0.4);
+}
+.pseudo-color-light-primary30:after,
+.pseudo-color-light-primary30:before {
+  color: rgba(222, 222, 222, 0.3);
+}
+.pseudo-color-light-primary20:after,
+.pseudo-color-light-primary20:before {
+  color: rgba(222, 222, 222, 0.2);
+}
+.pseudo-color-light-primary10:after,
+.pseudo-color-light-primary10:before {
+  color: rgba(222, 222, 222, 0.1);
+}
+.pseudo-color-light-accent100:after,
+.pseudo-color-light-accent100:before {
+  color: #ffffff;
+}
+.pseudo-color-light-accent90:after,
+.pseudo-color-light-accent90:before {
+  color: rgba(255, 255, 255, 0.9);
+}
+.pseudo-color-light-accent80:after,
+.pseudo-color-light-accent80:before {
+  color: rgba(255, 255, 255, 0.8);
+}
+.pseudo-color-light-accent70:after,
+.pseudo-color-light-accent70:before {
+  color: rgba(255, 255, 255, 0.7);
+}
+.pseudo-color-light-accent60:after,
+.pseudo-color-light-accent60:before {
+  color: rgba(255, 255, 255, 0.6);
+}
+.pseudo-color-light-accent50:after,
+.pseudo-color-light-accent50:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+.pseudo-color-light-accent40:after,
+.pseudo-color-light-accent40:before {
+  color: rgba(255, 255, 255, 0.4);
+}
+.pseudo-color-light-accent30:after,
+.pseudo-color-light-accent30:before {
+  color: rgba(255, 255, 255, 0.3);
+}
+.pseudo-color-light-accent20:after,
+.pseudo-color-light-accent20:before {
+  color: rgba(255, 255, 255, 0.2);
+}
+.pseudo-color-light-accent10:after,
+.pseudo-color-light-accent10:before {
+  color: rgba(255, 255, 255, 0.1);
+}
+.pseudo-color-light-box100:after,
+.pseudo-color-light-box100:before {
+  color: #b0b0b0;
+}
+.pseudo-color-light-box90:after,
+.pseudo-color-light-box90:before {
+  color: rgba(176, 176, 176, 0.9);
+}
+.pseudo-color-light-box80:after,
+.pseudo-color-light-box80:before {
+  color: rgba(176, 176, 176, 0.8);
+}
+.pseudo-color-light-box70:after,
+.pseudo-color-light-box70:before {
+  color: rgba(176, 176, 176, 0.7);
+}
+.pseudo-color-light-box60:after,
+.pseudo-color-light-box60:before {
+  color: rgba(176, 176, 176, 0.6);
+}
+.pseudo-color-light-box50:after,
+.pseudo-color-light-box50:before {
+  color: rgba(176, 176, 176, 0.5);
+}
+.pseudo-color-light-box40:after,
+.pseudo-color-light-box40:before {
+  color: rgba(176, 176, 176, 0.4);
+}
+.pseudo-color-light-box30:after,
+.pseudo-color-light-box30:before {
+  color: rgba(176, 176, 176, 0.3);
+}
+.pseudo-color-light-box20:after,
+.pseudo-color-light-box20:before {
+  color: rgba(176, 176, 176, 0.2);
+}
+.pseudo-color-light-box10:after,
+.pseudo-color-light-box10:before {
+  color: rgba(176, 176, 176, 0.1);
+}
+.pseudo-color-dark-primary100:after,
+.pseudo-color-dark-primary100:before {
+  color: #444444;
+}
+.pseudo-color-dark-primary90:after,
+.pseudo-color-dark-primary90:before {
+  color: rgba(68, 68, 68, 0.9);
+}
+.pseudo-color-dark-primary80:after,
+.pseudo-color-dark-primary80:before {
+  color: rgba(68, 68, 68, 0.8);
+}
+.pseudo-color-dark-primary70:after,
+.pseudo-color-dark-primary70:before {
+  color: rgba(68, 68, 68, 0.7);
+}
+.pseudo-color-dark-primary60:after,
+.pseudo-color-dark-primary60:before {
+  color: rgba(68, 68, 68, 0.6);
+}
+.pseudo-color-dark-primary50:after,
+.pseudo-color-dark-primary50:before {
+  color: rgba(68, 68, 68, 0.5);
+}
+.pseudo-color-dark-primary40:after,
+.pseudo-color-dark-primary40:before {
+  color: rgba(68, 68, 68, 0.4);
+}
+.pseudo-color-dark-primary30:after,
+.pseudo-color-dark-primary30:before {
+  color: rgba(68, 68, 68, 0.3);
+}
+.pseudo-color-dark-primary20:after,
+.pseudo-color-dark-primary20:before {
+  color: rgba(68, 68, 68, 0.2);
+}
+.pseudo-color-dark-primary10:after,
+.pseudo-color-dark-primary10:before {
+  color: rgba(68, 68, 68, 0.1);
+}
+.pseudo-color-dark-accent100:after,
+.pseudo-color-dark-accent100:before {
+  color: #111111;
+}
+.pseudo-color-dark-accent90:after,
+.pseudo-color-dark-accent90:before {
+  color: rgba(17, 17, 17, 0.9);
+}
+.pseudo-color-dark-accent80:after,
+.pseudo-color-dark-accent80:before {
+  color: rgba(17, 17, 17, 0.8);
+}
+.pseudo-color-dark-accent70:after,
+.pseudo-color-dark-accent70:before {
+  color: rgba(17, 17, 17, 0.7);
+}
+.pseudo-color-dark-accent60:after,
+.pseudo-color-dark-accent60:before {
+  color: rgba(17, 17, 17, 0.6);
+}
+.pseudo-color-dark-accent50:after,
+.pseudo-color-dark-accent50:before {
+  color: rgba(17, 17, 17, 0.5);
+}
+.pseudo-color-dark-accent40:after,
+.pseudo-color-dark-accent40:before {
+  color: rgba(17, 17, 17, 0.4);
+}
+.pseudo-color-dark-accent30:after,
+.pseudo-color-dark-accent30:before {
+  color: rgba(17, 17, 17, 0.3);
+}
+.pseudo-color-dark-accent20:after,
+.pseudo-color-dark-accent20:before {
+  color: rgba(17, 17, 17, 0.2);
+}
+.pseudo-color-dark-accent10:after,
+.pseudo-color-dark-accent10:before {
+  color: rgba(17, 17, 17, 0.1);
+}
+.pseudo-color-dark-box100:after,
+.pseudo-color-dark-box100:before {
+  color: #ff0000;
+}
+.pseudo-color-dark-box90:after,
+.pseudo-color-dark-box90:before {
+  color: rgba(255, 0, 0, 0.9);
+}
+.pseudo-color-dark-box80:after,
+.pseudo-color-dark-box80:before {
+  color: rgba(255, 0, 0, 0.8);
+}
+.pseudo-color-dark-box70:after,
+.pseudo-color-dark-box70:before {
+  color: rgba(255, 0, 0, 0.7);
+}
+.pseudo-color-dark-box60:after,
+.pseudo-color-dark-box60:before {
+  color: rgba(255, 0, 0, 0.6);
+}
+.pseudo-color-dark-box50:after,
+.pseudo-color-dark-box50:before {
+  color: rgba(255, 0, 0, 0.5);
+}
+.pseudo-color-dark-box40:after,
+.pseudo-color-dark-box40:before {
+  color: rgba(255, 0, 0, 0.4);
+}
+.pseudo-color-dark-box30:after,
+.pseudo-color-dark-box30:before {
+  color: rgba(255, 0, 0, 0.3);
+}
+.pseudo-color-dark-box20:after,
+.pseudo-color-dark-box20:before {
+  color: rgba(255, 0, 0, 0.2);
+}
+.pseudo-color-dark-box10:after,
+.pseudo-color-dark-box10:before {
+  color: rgba(255, 0, 0, 0.1);
+}
+.pseudo-bg-primary100:after,
+.pseudo-bg-primary100:before {
+  background-color: #175eba;
+}
+.pseudo-bg-primary90:after,
+.pseudo-bg-primary90:before {
+  background-color: rgba(23, 94, 186, 0.9);
+}
+.pseudo-bg-primary80:after,
+.pseudo-bg-primary80:before {
+  background-color: rgba(23, 94, 186, 0.8);
+}
+.pseudo-bg-primary70:after,
+.pseudo-bg-primary70:before {
+  background-color: rgba(23, 94, 186, 0.7);
+}
+.pseudo-bg-primary60:after,
+.pseudo-bg-primary60:before {
+  background-color: rgba(23, 94, 186, 0.6);
+}
+.pseudo-bg-primary50:after,
+.pseudo-bg-primary50:before {
+  background-color: rgba(23, 94, 186, 0.5);
+}
+.pseudo-bg-primary40:after,
+.pseudo-bg-primary40:before {
+  background-color: rgba(23, 94, 186, 0.4);
+}
+.pseudo-bg-primary30:after,
+.pseudo-bg-primary30:before {
+  background-color: rgba(23, 94, 186, 0.3);
+}
+.pseudo-bg-primary20:after,
+.pseudo-bg-primary20:before {
+  background-color: rgba(23, 94, 186, 0.2);
+}
+.pseudo-bg-primary10:after,
+.pseudo-bg-primary10:before {
+  background-color: rgba(23, 94, 186, 0.1);
+}
+.pseudo-bg-accent100:after,
+.pseudo-bg-accent100:before {
+  background-color: #fe9000;
+}
+.pseudo-bg-accent90:after,
+.pseudo-bg-accent90:before {
+  background-color: rgba(254, 144, 0, 0.9);
+}
+.pseudo-bg-accent80:after,
+.pseudo-bg-accent80:before {
+  background-color: rgba(254, 144, 0, 0.8);
+}
+.pseudo-bg-accent70:after,
+.pseudo-bg-accent70:before {
+  background-color: rgba(254, 144, 0, 0.7);
+}
+.pseudo-bg-accent60:after,
+.pseudo-bg-accent60:before {
+  background-color: rgba(254, 144, 0, 0.6);
+}
+.pseudo-bg-accent50:after,
+.pseudo-bg-accent50:before {
+  background-color: rgba(254, 144, 0, 0.5);
+}
+.pseudo-bg-accent40:after,
+.pseudo-bg-accent40:before {
+  background-color: rgba(254, 144, 0, 0.4);
+}
+.pseudo-bg-accent30:after,
+.pseudo-bg-accent30:before {
+  background-color: rgba(254, 144, 0, 0.3);
+}
+.pseudo-bg-accent20:after,
+.pseudo-bg-accent20:before {
+  background-color: rgba(254, 144, 0, 0.2);
+}
+.pseudo-bg-accent10:after,
+.pseudo-bg-accent10:before {
+  background-color: rgba(254, 144, 0, 0.1);
+}
+.pseudo-bg-light-primary100:after,
+.pseudo-bg-light-primary100:before {
+  background-color: #ffffff;
+}
+.pseudo-bg-light-primary90:after,
+.pseudo-bg-light-primary90:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.pseudo-bg-light-primary80:after,
+.pseudo-bg-light-primary80:before {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.pseudo-bg-light-primary70:after,
+.pseudo-bg-light-primary70:before {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.pseudo-bg-light-primary60:after,
+.pseudo-bg-light-primary60:before {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.pseudo-bg-light-primary50:after,
+.pseudo-bg-light-primary50:before {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.pseudo-bg-light-primary40:after,
+.pseudo-bg-light-primary40:before {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.pseudo-bg-light-primary30:after,
+.pseudo-bg-light-primary30:before {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.pseudo-bg-light-primary20:after,
+.pseudo-bg-light-primary20:before {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.pseudo-bg-light-primary10:after,
+.pseudo-bg-light-primary10:before {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.pseudo-bg-light-accent100:after,
+.pseudo-bg-light-accent100:before {
+  background-color: #f7f7f7;
+}
+.pseudo-bg-light-accent90:after,
+.pseudo-bg-light-accent90:before {
+  background-color: rgba(247, 247, 247, 0.9);
+}
+.pseudo-bg-light-accent80:after,
+.pseudo-bg-light-accent80:before {
+  background-color: rgba(247, 247, 247, 0.8);
+}
+.pseudo-bg-light-accent70:after,
+.pseudo-bg-light-accent70:before {
+  background-color: rgba(247, 247, 247, 0.7);
+}
+.pseudo-bg-light-accent60:after,
+.pseudo-bg-light-accent60:before {
+  background-color: rgba(247, 247, 247, 0.6);
+}
+.pseudo-bg-light-accent50:after,
+.pseudo-bg-light-accent50:before {
+  background-color: rgba(247, 247, 247, 0.5);
+}
+.pseudo-bg-light-accent40:after,
+.pseudo-bg-light-accent40:before {
+  background-color: rgba(247, 247, 247, 0.4);
+}
+.pseudo-bg-light-accent30:after,
+.pseudo-bg-light-accent30:before {
+  background-color: rgba(247, 247, 247, 0.3);
+}
+.pseudo-bg-light-accent20:after,
+.pseudo-bg-light-accent20:before {
+  background-color: rgba(247, 247, 247, 0.2);
+}
+.pseudo-bg-light-accent10:after,
+.pseudo-bg-light-accent10:before {
+  background-color: rgba(247, 247, 247, 0.1);
+}
+.pseudo-bg-light-box100:after,
+.pseudo-bg-light-box100:before {
+  background-color: #ff0000;
+}
+.pseudo-bg-light-box90:after,
+.pseudo-bg-light-box90:before {
+  background-color: rgba(255, 0, 0, 0.9);
+}
+.pseudo-bg-light-box80:after,
+.pseudo-bg-light-box80:before {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.pseudo-bg-light-box70:after,
+.pseudo-bg-light-box70:before {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.pseudo-bg-light-box60:after,
+.pseudo-bg-light-box60:before {
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.pseudo-bg-light-box50:after,
+.pseudo-bg-light-box50:before {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.pseudo-bg-light-box40:after,
+.pseudo-bg-light-box40:before {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.pseudo-bg-light-box30:after,
+.pseudo-bg-light-box30:before {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.pseudo-bg-light-box20:after,
+.pseudo-bg-light-box20:before {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.pseudo-bg-light-box10:after,
+.pseudo-bg-light-box10:before {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.pseudo-bg-dark-primary100:after,
+.pseudo-bg-dark-primary100:before {
+  background-color: #111111;
+}
+.pseudo-bg-dark-primary90:after,
+.pseudo-bg-dark-primary90:before {
+  background-color: rgba(17, 17, 17, 0.9);
+}
+.pseudo-bg-dark-primary80:after,
+.pseudo-bg-dark-primary80:before {
+  background-color: rgba(17, 17, 17, 0.8);
+}
+.pseudo-bg-dark-primary70:after,
+.pseudo-bg-dark-primary70:before {
+  background-color: rgba(17, 17, 17, 0.7);
+}
+.pseudo-bg-dark-primary60:after,
+.pseudo-bg-dark-primary60:before {
+  background-color: rgba(17, 17, 17, 0.6);
+}
+.pseudo-bg-dark-primary50:after,
+.pseudo-bg-dark-primary50:before {
+  background-color: rgba(17, 17, 17, 0.5);
+}
+.pseudo-bg-dark-primary40:after,
+.pseudo-bg-dark-primary40:before {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+.pseudo-bg-dark-primary30:after,
+.pseudo-bg-dark-primary30:before {
+  background-color: rgba(17, 17, 17, 0.3);
+}
+.pseudo-bg-dark-primary20:after,
+.pseudo-bg-dark-primary20:before {
+  background-color: rgba(17, 17, 17, 0.2);
+}
+.pseudo-bg-dark-primary10:after,
+.pseudo-bg-dark-primary10:before {
+  background-color: rgba(17, 17, 17, 0.1);
+}
+.pseudo-bg-dark-accent100:after,
+.pseudo-bg-dark-accent100:before {
+  background-color: #1b1d1f;
+}
+.pseudo-bg-dark-accent90:after,
+.pseudo-bg-dark-accent90:before {
+  background-color: rgba(27, 29, 31, 0.9);
+}
+.pseudo-bg-dark-accent80:after,
+.pseudo-bg-dark-accent80:before {
+  background-color: rgba(27, 29, 31, 0.8);
+}
+.pseudo-bg-dark-accent70:after,
+.pseudo-bg-dark-accent70:before {
+  background-color: rgba(27, 29, 31, 0.7);
+}
+.pseudo-bg-dark-accent60:after,
+.pseudo-bg-dark-accent60:before {
+  background-color: rgba(27, 29, 31, 0.6);
+}
+.pseudo-bg-dark-accent50:after,
+.pseudo-bg-dark-accent50:before {
+  background-color: rgba(27, 29, 31, 0.5);
+}
+.pseudo-bg-dark-accent40:after,
+.pseudo-bg-dark-accent40:before {
+  background-color: rgba(27, 29, 31, 0.4);
+}
+.pseudo-bg-dark-accent30:after,
+.pseudo-bg-dark-accent30:before {
+  background-color: rgba(27, 29, 31, 0.3);
+}
+.pseudo-bg-dark-accent20:after,
+.pseudo-bg-dark-accent20:before {
+  background-color: rgba(27, 29, 31, 0.2);
+}
+.pseudo-bg-dark-accent10:after,
+.pseudo-bg-dark-accent10:before {
+  background-color: rgba(27, 29, 31, 0.1);
+}
+.pseudo-bg-dark-box100:after,
+.pseudo-bg-dark-box100:before {
+  background-color: #111213;
+}
+.pseudo-bg-dark-box90:after,
+.pseudo-bg-dark-box90:before {
+  background-color: rgba(17, 18, 19, 0.9);
+}
+.pseudo-bg-dark-box80:after,
+.pseudo-bg-dark-box80:before {
+  background-color: rgba(17, 18, 19, 0.8);
+}
+.pseudo-bg-dark-box70:after,
+.pseudo-bg-dark-box70:before {
+  background-color: rgba(17, 18, 19, 0.7);
+}
+.pseudo-bg-dark-box60:after,
+.pseudo-bg-dark-box60:before {
+  background-color: rgba(17, 18, 19, 0.6);
+}
+.pseudo-bg-dark-box50:after,
+.pseudo-bg-dark-box50:before {
+  background-color: rgba(17, 18, 19, 0.5);
+}
+.pseudo-bg-dark-box40:after,
+.pseudo-bg-dark-box40:before {
+  background-color: rgba(17, 18, 19, 0.4);
+}
+.pseudo-bg-dark-box30:after,
+.pseudo-bg-dark-box30:before {
+  background-color: rgba(17, 18, 19, 0.3);
+}
+.pseudo-bg-dark-box20:after,
+.pseudo-bg-dark-box20:before {
+  background-color: rgba(17, 18, 19, 0.2);
+}
+.pseudo-bg-dark-box10:after,
+.pseudo-bg-dark-box10:before {
+  background-color: rgba(17, 18, 19, 0.1);
+}
+.active.hover-bg-primary100,
+.hover-bg-primary100:hover {
+  background-color: #175eba;
+}
+.active.hover-bg-primary90,
+.hover-bg-primary90:hover {
+  background-color: rgba(23, 94, 186, 0.9);
+}
+.active.hover-bg-primary80,
+.hover-bg-primary80:hover {
+  background-color: rgba(23, 94, 186, 0.8);
+}
+.active.hover-bg-primary70,
+.hover-bg-primary70:hover {
+  background-color: rgba(23, 94, 186, 0.7);
+}
+.active.hover-bg-primary60,
+.hover-bg-primary60:hover {
+  background-color: rgba(23, 94, 186, 0.6);
+}
+.active.hover-bg-primary50,
+.hover-bg-primary50:hover {
+  background-color: rgba(23, 94, 186, 0.5);
+}
+.active.hover-bg-primary40,
+.hover-bg-primary40:hover {
+  background-color: rgba(23, 94, 186, 0.4);
+}
+.active.hover-bg-primary30,
+.hover-bg-primary30:hover {
+  background-color: rgba(23, 94, 186, 0.3);
+}
+.active.hover-bg-primary20,
+.hover-bg-primary20:hover {
+  background-color: rgba(23, 94, 186, 0.2);
+}
+.active.hover-bg-primary10,
+.hover-bg-primary10:hover {
+  background-color: rgba(23, 94, 186, 0.1);
+}
+.active.hover-bg-accent100,
+.hover-bg-accent100:hover {
+  background-color: #fe9000;
+}
+.active.hover-bg-accent90,
+.hover-bg-accent90:hover {
+  background-color: rgba(254, 144, 0, 0.9);
+}
+.active.hover-bg-accent80,
+.hover-bg-accent80:hover {
+  background-color: rgba(254, 144, 0, 0.8);
+}
+.active.hover-bg-accent70,
+.hover-bg-accent70:hover {
+  background-color: rgba(254, 144, 0, 0.7);
+}
+.active.hover-bg-accent60,
+.hover-bg-accent60:hover {
+  background-color: rgba(254, 144, 0, 0.6);
+}
+.active.hover-bg-accent50,
+.hover-bg-accent50:hover {
+  background-color: rgba(254, 144, 0, 0.5);
+}
+.active.hover-bg-accent40,
+.hover-bg-accent40:hover {
+  background-color: rgba(254, 144, 0, 0.4);
+}
+.active.hover-bg-accent30,
+.hover-bg-accent30:hover {
+  background-color: rgba(254, 144, 0, 0.3);
+}
+.active.hover-bg-accent20,
+.hover-bg-accent20:hover {
+  background-color: rgba(254, 144, 0, 0.2);
+}
+.active.hover-bg-accent10,
+.hover-bg-accent10:hover {
+  background-color: rgba(254, 144, 0, 0.1);
+}
+.active.hover-color-dark,
+.hover-color-dark:hover {
+  color: #111111;
+}
+.active.hover-color-dark a,
+.hover-color-dark:hover a {
+  color: #111111;
+}
+.active.hover-color-primary,
+.hover-color-primary:hover {
+  color: #175eba;
+}
+.active.hover-color-primary a,
+.hover-color-primary:hover a {
+  color: #175eba;
+}
+.active.hover-color-accent,
+.hover-color-accent:hover {
+  color: #fe9000;
+}
+.active.hover-color-accent a,
+.hover-color-accent:hover a {
+  color: #fe9000;
+}
+.active.hover-pseudo-color-primary:after,
+.hover-pseudo-color-primary:hover:after,
+.active.hover-pseudo-color-primary:before,
+.hover-pseudo-color-primary:hover:before {
+  color: #175eba;
+}
+.active.hover-pseudo-color-accent:after,
+.hover-pseudo-color-accent:hover:after,
+.active.hover-pseudo-color-accent:before,
+.hover-pseudo-color-accent:hover:before {
+  color: #fe9000;
+}
+.active.hover-color-light,
+.hover-color-light:hover {
+  color: #ffffff;
+}
+.active.hover-color-light a,
+.hover-color-light:hover a {
+  color: #ffffff;
+}
+.hover-parent:hover .hover-bg-transparent-child {
+  background-color: transparent;
+}
+.hover-parent:hover .hover-bg-primary80-child {
+  background-color: rgba(23, 94, 186, 0.8);
+}
+.hover-parent:hover .hover-color-light-accent-child {
+  color: #ffffff;
+}
+.hover-parent:hover .hover-color-light-accent-child a {
+  color: #ffffff;
+}
+.hover-parent:hover .hover-color-light-primary-child {
+  color: #dedede;
+}
+.hover-parent:hover .hover-color-light-primary-child a {
+  color: #dedede;
+}
+.hover-parent:hover .bg-accent100-child {
+  background-color: #fe9000;
+}
+/* Gradient */
+.gradient-vertical.gradient-primary-accent:before {
+  background: -webkit-linear-gradient(to right, #175eba, #fe9000);
+  background: -o-linear-gradient(to right, #175eba, #fe9000);
+  background: -moz-linear-gradient(to right, #175eba, #fe9000);
+  background: linear-gradient(to right, #175eba, #fe9000);
+}
+.gradient-vertical.gradient-primary-dark:before {
+  background: -webkit-linear-gradient(to right, #175eba, red);
+  background: -o-linear-gradient(to right, #175eba, red);
+  background: -moz-linear-gradient(to right, #175eba, red);
+  background: linear-gradient(to right, #175eba, red);
+}
+.gradient-vertical.gradient-primary-light:before {
+  background: -webkit-linear-gradient(to right, #175eba, #f7f7f7);
+  background: -o-linear-gradient(to right, #175eba, #f7f7f7);
+  background: -moz-linear-gradient(to right, #175eba, #f7f7f7);
+  background: linear-gradient(to right, #175eba, #f7f7f7);
+}
+.gradient-vertical.gradient-primary-transparent:before {
+  background: -webkit-linear-gradient(to right, #175eba, transparent);
+  background: -o-linear-gradient(to right, #175eba, transparent);
+  background: -moz-linear-gradient(to right, #175eba, transparent);
+  background: linear-gradient(to right, #175eba, transparent);
+}
+.gradient-vertical.gradient-accent-primary:before {
+  background: -webkit-linear-gradient(to right, #fe9000, #175eba);
+  background: -o-linear-gradient(to right, #fe9000, #175eba);
+  background: -moz-linear-gradient(to right, #fe9000, #175eba);
+  background: linear-gradient(to right, #fe9000, #175eba);
+}
+.gradient-vertical.gradient-accent-dark:before {
+  background: -webkit-linear-gradient(to right, #fe9000, red);
+  background: -o-linear-gradient(to right, #fe9000, red);
+  background: -moz-linear-gradient(to right, #fe9000, red);
+  background: linear-gradient(to right, #fe9000, red);
+}
+.gradient-vertical.gradient-accent-light:before {
+  background: -webkit-linear-gradient(to right, #fe9000, #f7f7f7);
+  background: -o-linear-gradient(to right, #fe9000, #f7f7f7);
+  background: -moz-linear-gradient(to right, #fe9000, #f7f7f7);
+  background: linear-gradient(to right, #fe9000, #f7f7f7);
+}
+.gradient-vertical.gradient-accent-transparent:before {
+  background: -webkit-linear-gradient(to right, #fe9000, transparent);
+  background: -o-linear-gradient(to right, #fe9000, transparent);
+  background: -moz-linear-gradient(to right, #fe9000, transparent);
+  background: linear-gradient(to right, #fe9000, transparent);
+}
+.gradient-vertical.gradient-dark-primary:before {
+  background: -webkit-linear-gradient(to right, red, #175eba);
+  background: -o-linear-gradient(to right, red, #175eba);
+  background: -moz-linear-gradient(to right, red, #175eba);
+  background: linear-gradient(to right, red, #175eba);
+}
+.gradient-vertical.gradient-dark-accent:before {
+  background: -webkit-linear-gradient(to right, red, #fe9000);
+  background: -o-linear-gradient(to right, red, #fe9000);
+  background: -moz-linear-gradient(to right, red, #fe9000);
+  background: linear-gradient(to right, red, #fe9000);
+}
+.gradient-vertical.gradient-dark-light:before {
+  background: -webkit-linear-gradient(to right, red, #f7f7f7);
+  background: -o-linear-gradient(to right, red, #f7f7f7);
+  background: -moz-linear-gradient(to right, red, #f7f7f7);
+  background: linear-gradient(to right, red, #f7f7f7);
+}
+.gradient-vertical.gradient-dark-transparent:before {
+  background: -webkit-linear-gradient(to right, red, transparent);
+  background: -o-linear-gradient(to right, red, transparent);
+  background: -moz-linear-gradient(to right, red, transparent);
+  background: linear-gradient(to right, red, transparent);
+}
+.gradient-vertical.gradient-light-primary:before {
+  background: -webkit-linear-gradient(to right, #f7f7f7, #175eba);
+  background: -o-linear-gradient(to right, #f7f7f7, #175eba);
+  background: -moz-linear-gradient(to right, #f7f7f7, #175eba);
+  background: linear-gradient(to right, #f7f7f7, #175eba);
+}
+.gradient-vertical.gradient-light-accent:before {
+  background: -webkit-linear-gradient(to right, #f7f7f7, #fe9000);
+  background: -o-linear-gradient(to right, #f7f7f7, #fe9000);
+  background: -moz-linear-gradient(to right, #f7f7f7, #fe9000);
+  background: linear-gradient(to right, #f7f7f7, #fe9000);
+}
+.gradient-vertical.gradient-light-dark:before {
+  background: -webkit-linear-gradient(to right, #f7f7f7, red);
+  background: -o-linear-gradient(to right, #f7f7f7, red);
+  background: -moz-linear-gradient(to right, #f7f7f7, red);
+  background: linear-gradient(to right, #f7f7f7, red);
+}
+.gradient-vertical.gradient-light-transparent:before {
+  background: -webkit-linear-gradient(to right, #f7f7f7, transparent);
+  background: -o-linear-gradient(to right, #f7f7f7, transparent);
+  background: -moz-linear-gradient(to right, #f7f7f7, transparent);
+  background: linear-gradient(to right, #f7f7f7, transparent);
+}
+.gradient-vertical.gradient-transparent-primary:before {
+  background: -webkit-linear-gradient(to right, transparent, #175eba);
+  background: -o-linear-gradient(to right, transparent, #175eba);
+  background: -moz-linear-gradient(to right, transparent, #175eba);
+  background: linear-gradient(to right, transparent, #175eba);
+}
+.gradient-vertical.gradient-transparent-accent:before {
+  background: -webkit-linear-gradient(to right, transparent, #fe9000);
+  background: -o-linear-gradient(to right, transparent, #fe9000);
+  background: -moz-linear-gradient(to right, transparent, #fe9000);
+  background: linear-gradient(to right, transparent, #fe9000);
+}
+.gradient-vertical.gradient-transparent-dark:before {
+  background: -webkit-linear-gradient(to right, transparent, red);
+  background: -o-linear-gradient(to right, transparent, red);
+  background: -moz-linear-gradient(to right, transparent, red);
+  background: linear-gradient(to right, transparent, red);
+}
+.gradient-vertical.gradient-transparent-light:before {
+  background: -webkit-linear-gradient(to right, transparent, #f7f7f7);
+  background: -o-linear-gradient(to right, transparent, #f7f7f7);
+  background: -moz-linear-gradient(to right, transparent, #f7f7f7);
+  background: linear-gradient(to right, transparent, #f7f7f7);
+}
+.gradient-horizontal.gradient-primary-accent:before {
+  background: -webkit-linear-gradient(to bottom, #175eba, #fe9000);
+  background: -o-linear-gradient(to bottom, #175eba, #fe9000);
+  background: -moz-linear-gradient(to bottom, #175eba, #fe9000);
+  background: linear-gradient(to bottom, #175eba, #fe9000);
+}
+.gradient-horizontal.gradient-primary-dark:before {
+  background: -webkit-linear-gradient(to bottom, #175eba, red);
+  background: -o-linear-gradient(to bottom, #175eba, red);
+  background: -moz-linear-gradient(to bottom, #175eba, red);
+  background: linear-gradient(to bottom, #175eba, red);
+}
+.gradient-horizontal.gradient-primary-light:before {
+  background: -webkit-linear-gradient(to bottom, #175eba, #f7f7f7);
+  background: -o-linear-gradient(to bottom, #175eba, #f7f7f7);
+  background: -moz-linear-gradient(to bottom, #175eba, #f7f7f7);
+  background: linear-gradient(to bottom, #175eba, #f7f7f7);
+}
+.gradient-horizontal.gradient-primary-transparent:before {
+  background: -webkit-linear-gradient(to bottom, #175eba, transparent);
+  background: -o-linear-gradient(to bottom, #175eba, transparent);
+  background: -moz-linear-gradient(to bottom, #175eba, transparent);
+  background: linear-gradient(to bottom, #175eba, transparent);
+}
+.gradient-horizontal.gradient-accent-primary:before {
+  background: -webkit-linear-gradient(to bottom, #fe9000, #175eba);
+  background: -o-linear-gradient(to bottom, #fe9000, #175eba);
+  background: -moz-linear-gradient(to bottom, #fe9000, #175eba);
+  background: linear-gradient(to bottom, #fe9000, #175eba);
+}
+.gradient-horizontal.gradient-accent-dark:before {
+  background: -webkit-linear-gradient(to bottom, #fe9000, red);
+  background: -o-linear-gradient(to bottom, #fe9000, red);
+  background: -moz-linear-gradient(to bottom, #fe9000, red);
+  background: linear-gradient(to bottom, #fe9000, red);
+}
+.gradient-horizontal.gradient-accent-light:before {
+  background: -webkit-linear-gradient(to bottom, #fe9000, #f7f7f7);
+  background: -o-linear-gradient(to bottom, #fe9000, #f7f7f7);
+  background: -moz-linear-gradient(to bottom, #fe9000, #f7f7f7);
+  background: linear-gradient(to bottom, #fe9000, #f7f7f7);
+}
+.gradient-horizontal.gradient-accent-transparent:before {
+  background: -webkit-linear-gradient(to bottom, #fe9000, transparent);
+  background: -o-linear-gradient(to bottom, #fe9000, transparent);
+  background: -moz-linear-gradient(to bottom, #fe9000, transparent);
+  background: linear-gradient(to bottom, #fe9000, transparent);
+}
+.gradient-horizontal.gradient-dark-primary:before {
+  background: -webkit-linear-gradient(to bottom, red, #175eba);
+  background: -o-linear-gradient(to bottom, red, #175eba);
+  background: -moz-linear-gradient(to bottom, red, #175eba);
+  background: linear-gradient(to bottom, red, #175eba);
+}
+.gradient-horizontal.gradient-dark-accent:before {
+  background: -webkit-linear-gradient(to bottom, red, #fe9000);
+  background: -o-linear-gradient(to bottom, red, #fe9000);
+  background: -moz-linear-gradient(to bottom, red, #fe9000);
+  background: linear-gradient(to bottom, red, #fe9000);
+}
+.gradient-horizontal.gradient-dark-light:before {
+  background: -webkit-linear-gradient(to bottom, red, #f7f7f7);
+  background: -o-linear-gradient(to bottom, red, #f7f7f7);
+  background: -moz-linear-gradient(to bottom, red, #f7f7f7);
+  background: linear-gradient(to bottom, red, #f7f7f7);
+}
+.gradient-horizontal.gradient-dark-transparent:before {
+  background: -webkit-linear-gradient(to bottom, red, transparent);
+  background: -o-linear-gradient(to bottom, red, transparent);
+  background: -moz-linear-gradient(to bottom, red, transparent);
+  background: linear-gradient(to bottom, red, transparent);
+}
+.gradient-horizontal.gradient-light-primary:before {
+  background: -webkit-linear-gradient(to bottom, #f7f7f7, #175eba);
+  background: -o-linear-gradient(to bottom, #f7f7f7, #175eba);
+  background: -moz-linear-gradient(to bottom, #f7f7f7, #175eba);
+  background: linear-gradient(to bottom, #f7f7f7, #175eba);
+}
+.gradient-horizontal.gradient-light-accent:before {
+  background: -webkit-linear-gradient(to bottom, #f7f7f7, #fe9000);
+  background: -o-linear-gradient(to bottom, #f7f7f7, #fe9000);
+  background: -moz-linear-gradient(to bottom, #f7f7f7, #fe9000);
+  background: linear-gradient(to bottom, #f7f7f7, #fe9000);
+}
+.gradient-horizontal.gradient-light-dark:before {
+  background: -webkit-linear-gradient(to bottom, #f7f7f7, red);
+  background: -o-linear-gradient(to bottom, #f7f7f7, red);
+  background: -moz-linear-gradient(to bottom, #f7f7f7, red);
+  background: linear-gradient(to bottom, #f7f7f7, red);
+}
+.gradient-horizontal.gradient-light-transparent:before {
+  background: -webkit-linear-gradient(to bottom, #f7f7f7, transparent);
+  background: -o-linear-gradient(to bottom, #f7f7f7, transparent);
+  background: -moz-linear-gradient(to bottom, #f7f7f7, transparent);
+  background: linear-gradient(to bottom, #f7f7f7, transparent);
+}
+.gradient-horizontal.gradient-transparent-primary:before {
+  background: -webkit-linear-gradient(to bottom, transparent, #175eba);
+  background: -o-linear-gradient(to bottom, transparent, #175eba);
+  background: -moz-linear-gradient(to bottom, transparent, #175eba);
+  background: linear-gradient(to bottom, transparent, #175eba);
+}
+.gradient-horizontal.gradient-transparent-accent:before {
+  background: -webkit-linear-gradient(to bottom, transparent, #fe9000);
+  background: -o-linear-gradient(to bottom, transparent, #fe9000);
+  background: -moz-linear-gradient(to bottom, transparent, #fe9000);
+  background: linear-gradient(to bottom, transparent, #fe9000);
+}
+.gradient-horizontal.gradient-transparent-dark:before {
+  background: -webkit-linear-gradient(to bottom, transparent, red);
+  background: -o-linear-gradient(to bottom, transparent, red);
+  background: -moz-linear-gradient(to bottom, transparent, red);
+  background: linear-gradient(to bottom, transparent, red);
+}
+.gradient-horizontal.gradient-transparent-light:before {
+  background: -webkit-linear-gradient(to bottom, transparent, #f7f7f7);
+  background: -o-linear-gradient(to bottom, transparent, #f7f7f7);
+  background: -moz-linear-gradient(to bottom, transparent, #f7f7f7);
+  background: linear-gradient(to bottom, transparent, #f7f7f7);
+}
